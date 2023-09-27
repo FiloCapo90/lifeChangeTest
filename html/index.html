@@ -5,24 +5,37 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Dice</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css" type="text/css"/>
 
     </head>
     <body>
-        <div class="styletest">Dices launcher simulator</div>
-        <div>Choose dices number</div>
-        <input type="number">
-        <div>Choose dice type</div>
-        <datalist id="list">
-            <option value="first">D4</option>
-            <option value="second">D6</option>
-            <!-- comment <option value="third">D8</option>
-            <option value="fourth">D10</option>
-            <option value="fifth">D12</option>
-            <option value="sixth">D20</option>-->
-        </datalist>
+        <div>
+            <h1 style="font-family: initial;">Dices launcher simulator</h1>
+        </div>
+        <br/>
+        <div>
+            <div>Choose dices number</div>
+            <input type="number" class="label">
+        </div>
+        <br/>
+        <div>
+            <div>Choose dice type</div>
+            <select name="diceTypes" class="label">
+                <option>D4</option>
+                <option>D6</option>
+                <option>D8</option>
+                <option>D10</option>
+                <option>D12</option>
+                <option>D20</option>
+            </select>
+        </div>
+        <br/>
+        <br/>
+        <div>
+            <button class="label">Launch!</button>
+        </div>    
     </body>
 </html>

@@ -6,11 +6,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Created on : 26 set 2023, 11:23:40
     Author     : Filippo
 */
-.styletest{
-    text-align: center;
-    font-family: impact;
+.label{
+    font-size: x-large;  
 }
 
 body{
-    color : lime;
+    background-color: lightblue;
+    text-align: center;
+    font-size: x-large;
 }

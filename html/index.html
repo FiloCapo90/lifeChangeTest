@@ -5,25 +5,25 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>Dice</title>
+        <title>Dice Game</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css" type="text/css"/>
-
+        <script type="module" src="../js/func.js"></script>
     </head>
     <body>
         <div>
-            <h1 style="font-family: initial;">Dices launcher simulator</h1>
+            <h1 style="font-family: initial;">Dice launcher simulator</h1>
         </div>
         <br/>
         <div>
-            <div>Choose dices number</div>
-            <input type="number" class="label">
+            <div>Choose dice number</div>
+            <input id="launchNum" type="number" class="label">
         </div>
         <br/>
         <div>
             <div>Choose dice type</div>
-            <select name="diceTypes" class="label">
+            <select id="diceTypes" name="diceTypes" class="label">
                 <option>D4</option>
                 <option>D6</option>
                 <option>D8</option>
@@ -35,7 +35,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <br/>
         <br/>
         <div>
-            <button class="label">Launch!</button>
-        </div>    
+            <button id="launch" class="label">Launch!</button>
+        </div>
+        <br/>
+        <div id="result"></div>
     </body>
 </html>

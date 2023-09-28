@@ -4,3 +4,11 @@
  */
 
 
+
+document.getElementById("launch").addEventListener("click",test);
+
+function test(){
+    let dicetype = document.getElementById("diceTypes").value;
+    let launchnum = document.getElementById("launchNum").value;
+    document.getElementById("result").innerHTML = dicetype.concat(" ",launchnum);
+}
